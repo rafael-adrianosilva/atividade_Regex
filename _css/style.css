@@ -1,0 +1,48 @@
+* {
+    font-family: "Saira", sans-serif;
+}
+
+#cpf {
+    width: 150px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 50%;
+    max-width: 500px;
+    padding: 20px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef ;
+}
+
+.caixa {
+    background-color:#dee2e6 ;
+    width: 90%;
+    border: 2px solid #dee1e3;
+    border-radius: 5px;
+}
+
+.caixa label {
+    display: block;
+
+}
+
+.caixa input{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #dee2e6;
+    background-color: #ced4da;
+}
