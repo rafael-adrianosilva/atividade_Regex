@@ -33,11 +33,11 @@ form {
     width: 90%;
     border: 2px solid #dee1e3;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .caixa label {
     display: block;
-
 }
 
 .caixa input{
@@ -46,4 +46,8 @@ form {
     border-radius: 5px;
     border: 2px solid #dee2e6;
     background-color: #ced4da;
+}
+
+.botao{
+    padding: 4px;
 }
